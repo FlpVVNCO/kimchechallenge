@@ -14,7 +14,7 @@ const client = new ApolloClient({
 
 const App = () => (
   <ApolloProvider client={client}>
-    <Home/>
+    <Home />
   </ApolloProvider>
 );
 
